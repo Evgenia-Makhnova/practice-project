@@ -1,3 +1,3 @@
 # practice-project
 
-http://f0465696.xsph.ru/
+Ссылка на выгруженный проект в sprinthost: http://f0465696.xsph.ru/ 
