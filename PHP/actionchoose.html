@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+		<link href="style/external.css?<?=time()?>" rel="stylesheet">
+		<meta charset="utf-8">
+    </head>
+
+    <body>
+        <?php 
+            echo "<div class='exiting'>Здравствуй, ".$_SESSION['user']."<form action='exit.php'><input type='submit'  value='Sign Out'></form> <hr><form action='results.php'> <input type='submit' value='Результат'> </form>"; 
+            echo "</div><div class='choise'><h1> Выберите действие</h1>";
+            if ($_SESSION['user']=='Teacher')
+            {
+                echo '<form method = "POST">
+
+                    <p align = "center" class="def">Открыть тест</p>				
+					<p align = "center"><input type = "submit" formaction="open.php" style="background-image: url(\'images/open.png\'); width: 18em;  height: 19em;" alt = "Open" value="">  </p>
+                    <hr><p align = "center" class="def">Создать тест</p></form><form method = "POST"><p align = "center"><input type = "submit" formaction="create.php" style="background-image: url(\'images/create.png\'); width: 18em;  height: 19em;" alt = "Create" value=""></p>
+					
+
+					<p align = "center" class="def">Введите имя нового теста: </p>
+					<p align = "center">	<input type = "text" name = "abracadabra" required></p>
+					
+
+                </form>';
+            }
+            else
+            {
+                echo '<form action="open.php" method = "POST">
+
+                    <p align = "center">
+                    <input type = "submit" style="background-image: url(\'images/open.png\'); width: 18em;  height: 19em;" value = "Open">     
+                    </p>
+
+
+                </form></div>';
+            }
+        ?>
+        
+        
+    </body>
+</html>

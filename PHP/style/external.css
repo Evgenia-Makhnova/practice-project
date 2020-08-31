@@ -1,0 +1,297 @@
+.wrong-answer{
+	color: red;
+	} 
+.needed-answer{
+	color: blue;
+	} 
+.right-answer{
+	color: green;
+	}
+
+	
+body{
+	background: #2061e3;
+	color: #6c0acf;
+	font-family: Georgia;
+	font-size: 16pt;
+	padding: 20px;
+	background: url("back.jpg");	
+	background-repeat: repeat;
+}
+
+.choise{
+	border: 2px dashed black ;
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	background-color: #ddbdfc; 
+}
+
+.choise .def{
+	font-family: Georgia;
+	font-size: 20pt;
+	height: 10px;
+	font-weight: bold;
+}
+
+.choise input[name="testname"]{
+	font-size: 20pt;
+	height: 20px;
+	color: #050505;
+	font-family: Georgia;
+	border-radius: 3px;
+	border: 2px solid black;
+}
+
+.testview{
+	background-color: #ddbdfc;
+	border: 2px dashed black ;
+	padding: 20px;
+	font-size: 20pt;
+	font-weight:bold;
+	margin-right: 150px;
+	margin-left: 110px;
+}
+
+.testview input[type='text']{
+	font-size: 20pt;
+	color: #050505;
+	font-family: Georgia;
+	border-radius: 3px;
+	width:90%;
+	border: 2px solid black;
+}
+
+.testview button{
+	font-size: 20pt;
+	color: #fcf40d;
+	margin-top: 20px;
+	font-family: Georgia;
+	border-radius: 3px;
+	border: 2px solid black;	
+	background: #83cbff;
+}
+
+
+.testview input[type='submit']{
+	font-size: 20pt;
+	color: #fcf40d;
+	margin-top: 20px;
+	font-family: Georgia;
+	border-radius: 3px;
+	border: 2px solid black;	
+	background: #1382d1;
+}
+.review{
+	border: 2px dashed black ;
+	background-color: #ddbdfc; 
+	font-family:Georgia; 
+	font-size: 20pt; 
+	margin-right: 150px;
+	margin-left: 110px;
+	padding:10px;
+}
+
+.exiting{
+	margin: 10px;
+	background-color: #ddbdfc;
+	border: 1px solid black;
+	padding: 20px;
+	position:absolute;
+	top:0;
+	right:0;
+	width:100px;
+	height: 180px;
+	
+}
+
+.exiting input{
+	width: 100px;
+	height: 50px;
+	font-family: Georgia;
+	font-size: 16pt;
+	color: #fcf40d;
+	border-radius: 3px;
+	border: 2px solid black;
+	background: #83cbff;
+}
+
+.exiting input[value = 'Sign Out']{
+	width: 100px;
+	height: 50px;
+	font-family: Georgia;
+	font-size: 16pt;
+	color: #fcf40d;
+	border-radius: 3px;
+	border: 2px solid black;
+	background: #fc3d3d;
+}
+
+.autho{
+	border: 2px dashed black ;
+	background-color: #ddbdfc; 
+	font-family:Georgia; 
+	font-size: 30pt; 
+	padding-left: 40px;
+	padding-bottom: 40px;
+	width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -270px;
+}
+
+.autho input{
+	width: 300px;
+	height: 30px;
+	font-size: 20pt; 
+	border-radius: 3px;
+	border: 2px solid black;
+}
+
+.autho input[type="submit"]{
+	width: 100px;
+	height: 50px;
+	margin-left: 160px;
+	font-size: 20pt; 
+	
+	color: #fcf40d;
+	border-radius: 10px;
+	border: 2px solid black;
+	background: #1382d1;
+}
+
+
+.autho td{
+	font-size: 25pt;
+}
+
+.back{
+	padding: 20px;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px;
+	width: 100px;
+	height: 50px;
+	font-family: Georgia;
+	font-size: 16pt;
+	color: #fcf40d;
+	border-radius: 3px;
+	border: 2px solid black;
+	background: #fc3d3d;
+	margin: 10px;
+}
+
+.showing{
+	background-color: #ddbdfc; 
+	border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -325px;
+}
+
+.showing td input[value="Delete"]{
+	width: 90px;
+	height: 40px;
+	font-family: Georgia;
+	font-size: 16pt;
+	color: #fcf40d;
+	border-radius: 3px;
+	border: 2px solid black;
+	background: #fc3d3d;
+}
+
+.showing td input[value="Edit"]{
+	width: 90px;
+	height: 40px;
+	font-family: Georgia;
+	font-size: 16pt;
+	color: #fcf40d;
+	border-radius: 3px;
+	border: 2px solid black;
+	background: #ffffaa;
+}
+
+.testname{
+	width: 430px;
+	height: 40px;
+	font-family: Georgia;
+	font-size: 16pt;
+	color: #ff089c;
+	border-radius: 3px;
+	border: 2px solid black;
+	background: #ffffff;
+}
+	
+h1, h5{
+	text-align: center;
+	font-style: Italic;
+	background-color: #ddbdfc;
+}
+
+h2{
+	text-align: center;
+	color: #fcf40d;
+}
+
+h4{
+	text-align: center;
+}
+
+
+
+input:hover{
+	border: 4px inset blue;
+}
+
+
+button:hover{
+	border: 4px inset blue;
+}
+
+.res{
+	background-color: #ddbdfc; 
+	border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -270px;
+	padding:5px;
+	font-size: 20pt;
+	font-family: Georgia;
+}
+.res input{
+	font-family: Georgia;
+	padding:3px;
+	margin-left:100px;
+	width: 300px;
+	height: 30px;
+	font-size: 20pt; 
+	border-radius: 3px;
+	border: 2px solid black;
+}
+.res th, td{
+	font-family: Georgia;
+	font-size: 20pt;
+	padding: 3px;
+}
+	
+.left{
+	text-align: left;
+	font-size: 50pt;
+}
+
+.hr{
+	border: 2px dashed black ;
+	background-color: #ddbdfc; 
+	height: 26px;
+}
+
+ input[type=radio] {
+    transform: scale(1.7);
+}
+
+ input[type=checkbox] {
+    transform: scale(1.7);
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+<test name="ew">
+    <question type="text">qtext<answer correct="y">text</answer></question>
+    <question type="radio">qRadio<answer correct="n">f1</answer>
+<answer correct="n">f2</answer>
+<answer correct="y">t3</answer>
+<answer correct="n">f4</answer>
+</question>
+<question type="check">qCheck<answer correct="n">1</answer>
+    <answer correct="n">2</answer>
+    <answer correct="n">3</answer>
+    <answer correct="y">4</answer>
+<answer correct="y">5</answer>
+<answer correct="y">6</answer>
+</question>
+</test>
+<test name="вркр">
+    <question type="check">вопрос<answer correct="y">1</answer>
+        <answer correct="n">2</answer>
+        <answer correct="y">3</answer>
+        <answer correct="n">4</answer>
+    </question>
+</test>
+<test name="аопаоп"><question type="text">иььти<answer correct="y">смт</answer></question><question type="text">апоо<answer correct="y">миьмиь</answer></question></test><test name="name"><question type="text">wer<answer correct="y">tt</answer></question><question type="radio">rth<answer correct="y">fdh</answer><answer correct="n">ng</answer></question><question type="check">fhfhd<answer correct="n">fn</answer><answer correct="y">nm</answer><answer correct="y">fff</answer><answer correct="n">d</answer></question><question type="check">fhfhd<answer correct="n">fn</answer><answer correct="y">nm</answer><answer correct="y">fff</answer><answer correct="n">d</answer></question></test><test name="Математика"><question type="text">Наименьшее простое число:<answer correct="y">2</answer></question><question type="radio">Чему равен факториал нуля?<answer correct="n">0</answer><answer correct="y">1</answer><answer correct="n">2</answer><answer correct="n">-1</answer><answer correct="n">10</answer></question><question type="check">Возможные решения x/0:<answer correct="y">Не существует</answer><answer correct="n">1</answer><answer correct="n">0</answer><answer correct="y">Бесконечность</answer></question></test><test name="test"><question type="text">hi<answer correct="y">213</answer></question><question type="radio">1<answer correct="y">1</answer><answer correct="n">2</answer><answer correct="n">3</answer><answer correct="n">4</answer></question><question type="check">ery<answer correct="y">e</answer><answer correct="n">142</answer><answer correct="y">r</answer><answer correct="y">y</answer></question></test></tests>
